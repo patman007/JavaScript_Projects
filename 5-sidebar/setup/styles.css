@@ -1,12 +1,12 @@
 /*
-=============== 
+===============
 Fonts
 ===============
 */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
 
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -54,7 +54,7 @@ Variables
   --fixed-width: 620px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -152,7 +152,7 @@ main {
 }
 
 /*
-=============== 
+===============
 Sidebar
 ===============
 */
@@ -214,6 +214,8 @@ Sidebar
   padding: 1rem 1.5rem;
   color: var(--clr-grey-5);
   transition: var(--transition);
+  visibility: hidden;
+  z-index: -10;
 }
 .links a:hover {
   background: var(--clr-primary-8);
@@ -247,7 +249,7 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--clr-red-dark);
   transition: var(--transition);
-  /* transform: translate(-100%); */
+  transform: translate(-100%);
 }
 .show-sidebar {
   transform: translate(0);
