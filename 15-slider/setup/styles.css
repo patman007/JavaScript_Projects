@@ -1,12 +1,12 @@
 /*
-=============== 
+===============
 Fonts
 ===============
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -54,7 +54,7 @@ Variables
   --fixed-width: 620px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -176,11 +176,10 @@ main {
   place-items: center;
 }
 /*
-=============== 
+===============
 Slider
 ===============
 */
-
 .slider-container {
   border: 5px solid var(--clr-primary-5);
   width: 80vw;
@@ -189,6 +188,7 @@ Slider
   max-width: 80rem;
   position: relative;
   border-radius: 0.5rem;
+   /* Overflow important here */
   overflow: hidden;
   margin-top: 4rem;
 }
@@ -264,6 +264,7 @@ Slider
     height: 65vh;
   }
 }
+
 /* .slide:nth-child(1){
   left: 0;
 }
@@ -279,4 +280,4 @@ Slider
 .slide{
   transform: translateX(-100%);
 } */
-/* negative value moves to left */
+/*negative value moves to left and positive value to the right
