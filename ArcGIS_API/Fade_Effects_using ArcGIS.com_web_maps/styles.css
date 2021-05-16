@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0 0 5px 0;
+  border-bottom: 1px solid #444;
+}
+
+.shadow {
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;
+}
+
+.map {
+  opacity: 0;
+}
+
+#feedback {
+  background: #fff;
+  color: #444;
+  position: absolute;
+  font-family: arial;
+  height: 120px;
+  margin: 5px;
+  padding: 10px;
+  right: 30px;
+  top: 30px;
+  width: 300px;
+  z-index: 40;
+}
+
+#note {
+  font-size: 80%;
+  font-weight: 700;
+  padding: 0 0 10px 0;
+}
+
+#show_next {
+  cursor: pointer;
+  font-size: 80%;
+}
+
+#show_next:hover {
+  border-bottom: 1px solid #444;
+}
